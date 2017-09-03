@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title> Kontakt </title>
+<link href="stil.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+ <div id="header"> 
+ 		<div id="logo">
+ 				
+                <img src="images/berlin-logo.png" width="200px" height="auto" />
+                <img src="images/slogan.png"  width="950px"/>
+ 
+ 	</div><!--logo-->
+ </div> <!--header-->
+ 
+ <div id="menistil">
+ 		<div id="navigacija">
+        	<ul> 
+            	<li> <a href="onama.html" >O NAMA</a> </li>
+                <li> <a href="kursevi.html">KURSEVI</a> </li>
+                <li> <a href="cenovnik.html">CENOVNIK </a></li>
+                <li> <a href="galerija.html">GALERIJA </a></li>
+                <li><a href="kontakt.html" class="active"> KONTAKT </a></li>
+            </ul>
+		</div>
+</div><!--menistil-->
+
+    <div id="strana">
+        
+        
+    
+        <form id="mojaforma" method="post" action="kontakt.php">
+            
+                       
+        <fieldset>
+            <legend> <h4> Ukoliko imate bilo kakvih pitanja, <br>slobodno nas kontaktirajte! </h4></legend>
+            
+        <input type="text" name="ime" placeholder="Name" />
+        <input type="text" name="prezime" placeholder="Prezime" />
+        <input type="email" name="email" placeholder="Email@adresa.com" />
+            
+        <h4>Odaberite kurs koji Vas interesuje: </h4>
+        
+            <select name="kursevi" id="kursevi"> 
+       		<option value="a1">  A1 </option>
+            <option value="a2">  A2 </option>
+            <option value="a3"> A3 </option>
+       
+            </select>     
+          
+        <h4>Poruka: </h4>  
+        <textarea name="poruka" rows="4" cols="30"></textarea>
+
+        <input type="reset" value="RESET" class="mybutton"/>
+        <input type="submit" value="POŠALJI" class="mybutton" />
+                
+       </fieldset>             
+        
+        </form>
+    
+        
+    </div> <!--strana-->
+		
+<div id="footer">
+	<img src="images/berlin-skyline.png" width="960px" />
+    
+    <div id="footertext">
+    	<p> Škola nemačkog jezika BERLIN <br />Ulica Laze Kostića 8/1<br />21000 Novi Sad<br />Tel: 021 31 056 31<br />Mob: 060 31 056 31<br />E-mail: info@skolanemackogberlin.com<br />Web: www.skolanemackogberlin.com <br /></p>
+	</div>
+    
+    <div id="ikonice"> 
+    	<a href="http://www.facebook.com"><img src="images/fb.png" /></a>
+        <a href="http://www.twitter.com"><img src="images/tw.png" /></a>
+    </div>
+
+</div> <!--footer-->
+
+<div id="copyright" > &copy; Copyright Diana 2016 </div>
+
+</body>
+</html>
